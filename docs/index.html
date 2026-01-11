@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<head>
+
+    <style>
+        body,
+        html {
+          height: 100%;
+        }
+
+        .parent {
+          white-space: nowrap;
+          height: 100%;
+          text-align: center;
+        }
+
+        .parent:after {
+          display: inline-block;
+          vertical-align: middle;
+          height: 100%;
+          content: '';
+        }
+
+        .centered {
+          display: inline-block;
+          vertical-align: middle;
+          white-space: normal;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="parent">
+      <div class="centered">
+        <p>this forum is undergoing maintenance; please <a href="https://forum.tpc.condos">check back</a> later.</p>
+      </div>
+    </div>
+
+</body>
+</html>
